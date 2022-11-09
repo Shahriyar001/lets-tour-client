@@ -10,7 +10,7 @@ const BannerItem = ({ slide }) => {
             </div>
             <div className="absolute flex justify-center mx-auto transform -translate-y-1/2 left-2/4 right-50% top-1/4">
                 <h1 className='text-6xl font-bold text-white'>
-                    Travel <br /> With Us <br /> to get a great experience
+                    Travel <br /> With Us <br /> To Get Great Experiences
                 </h1>
             </div>
             <div className="absolute flex justify-center mx-auto transform -translate-y-1/2 w-2/5 left-2/4 right-50% top-2/4">
