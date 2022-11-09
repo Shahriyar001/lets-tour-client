@@ -1,35 +1,32 @@
 import React, { useEffect, useState } from 'react';
-import { Link } from 'react-router-dom';
-import ServiceCard from './ServiceCard';
+import AllServicesCard from './AllServicesCard';
 
-const Services = () => {
-    const [services, setServices] = useState([]);
+const AllServices = () => {
+
+    const [allServices, setAllServices] = useState([]);
     useEffect(() => {
         fetch('services.json')
             .then(res => res.json())
-            .then(data => setServices(data))
+            .then(data => setAllServices(data))
     }, [])
 
     return (
-        <div className='my-5'>
+        <div>
             <div className='text-center'>
                 <p className='text-2xl font-bold text-blue-600 my-3'>Services</p>
                 <h2 className='text-5xl font-semibold my-3'>Our Services</h2>
             </div>
             <div className='grid gap-6 grid-cols-1 md:grid-cols-2 lg:grid-cols-3'>
                 {
-                    services.map(service => <ServiceCard
+                    allServices.map(service => <AllServicesCard
                         key={service._id}
                         service={service}
-                    ></ServiceCard>)
+                    ></AllServicesCard>)
                 }
-            </div>
-            <div className='text-center my-5'>
-                <button className='btn btn-primary'><Link to="/allServices">See All</Link></button>
             </div>
 
         </div>
     );
 };
 
-export default Services;
+export default AllServices;
