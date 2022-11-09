@@ -1,0 +1,80 @@
+[
+    {
+        "_id": "0282e0e58a5c404fbd15261f11c2ab6a",
+        "service_id": "01",
+        "rating": {
+            "number": 4.5,
+            "badge": "Excellent"
+        },
+        "total_view": 488,
+        "title": "Holiday packages",
+        "price": "150-600",
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPCLT2D3zXQ0W3x8nO_ZEOWbPYC4rBUnVR-g&usqp=CAU",
+        "details": "We provide many types of packages and holyday package is one of them. in this package you may get some options. Every year we choose diffrent place to travel. So you can enjoy a doffrent types of test in every new year. Everyday you learn more about where you are and all the things that you can do there. Proper planning for trips can give you piece of mind, but don not forget to leave some room for exploration! There are some amazing places and activities in cities around the world and you don not want to restrict yourself from seeing them."
+    },
+    {
+        "_id": "0282e0e58a5c404fbd15261f11c2ab6a",
+        "service_id": "02",
+        "rating": {
+            "number": 4.5,
+            "badge": "Excellent"
+        },
+        "total_view": 488,
+        "title": "Transport",
+        "price": "50-400",
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHKAgj7wwAUPv6gQl3rKEGGPqKNmEXeXLlYtXKS9yKLJRc67zorEDGXc2UkEhLxAX4vDY&usqp=CAU",
+        "details": "We have many types of transport system like Plane, Bus, Ship, Boat etc. IRU is the trusted voice for mobility and logistics, upholding the interest of bus, coach, taxi and truck operators as well as the broader mobility and logistics industry. By promoting and enhancing cooperation between industry and decision makers, IRU contributes to facilitating trade and building prosperity. IRU champions excellence in road transport through international certification standards that create real competitive advantage.        "
+    },
+    {
+        "_id": "0282e0e58a5c404fbd15261f11c2ab6a",
+        "service_id": "03",
+        "rating": {
+            "number": 4.5,
+            "badge": "Hotel"
+        },
+        "total_view": 488,
+        "title": "Holiday packages",
+        "price": "100-900",
+        "img": "https://economictimes.indiatimes.com/thumb/msid-89465809,width-1254,height-836,resizemode-4,imgsize-28786/indian-hotels.jpg?from=mdr",
+        "details": "We have best holet service for our tourism, and also we provide spesial discount for our mumbers. Over 2,500 Hotels Worldwide. Book Now, Pay When You Stay. We speak your language. Read Real Guest Reviews. 24/7 Customer Service. Best Price Guarantee. Get Instant Confirmation. Save 10% with Genius. Types: Hotels, Apartments, Villas, Hostels, Resorts. "
+    },
+    {
+        "_id": "0282e0e58a5c404fbd15261f11c2ab6a",
+        "service_id": "04",
+        "rating": {
+            "number": 4.5,
+            "badge": "Excellent"
+        },
+        "total_view": 488,
+        "title": "Tour Guide",
+        "price": "20-80",
+        "img": "https://career.guru99.com/wp-content/uploads/2014/08/TourGuide-1280x720.jpg",
+        "details": "We have trained tour guide for our mumbers. They will help you to explore new experience. Culture, restaurants, and shopping: the best tips for your holiday in our service. Simply discover places - we look forward to seeing you in selected places. Reitstadion München-Riem. We have certified Official travel guide. tourism gains much of its excitement by allowing the tourists to step outside their comfort zone. This may be from experiencing cultural shock or through the performance of acts, that required some degree of risk (real or perceived) and physical danger."
+    },
+    {
+        "_id": "0282e0e58a5c404fbd15261f11c2ab6a",
+        "service_id": "05",
+        "rating": {
+            "number": 4.5,
+            "badge": "Excellent"
+        },
+        "total_view": 488,
+        "title": "Restaurant",
+        "price": "50-300",
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCIL3j2rwlnb08v3WYiSj3v98Pdh3oFqEITg&usqp=CAU",
+        "details": "You can enjoy hygenic and fresh delicious food during travel time. We have best holet service for our tourism, and also we provide spesial discount for our mumbers. Over 2,500 restaurent Worldwide. Book Now, Pay When You Stay. We speak your language. Read Real Guest Reviews. 24/7 Customer Service. Best Price Guarantee. Get Instant Confirmation. Save 10% with Genius. Types: 3star Hostels, 5star Hotels, restaurent, Resorts. "
+    },
+    {
+        "_id": "0282e0e58a5c404fbd15261f11c2ab6a",
+        "service_id": "06",
+        "rating": {
+            "number": 4.5,
+            "badge": "Excellent"
+        },
+        "total_view": 488,
+        "title": "Adventure tour",
+        "price": "100-300",
+        "img": "https://www.soegjobs.com/wp-content/uploads/2018/05/Adventure-Tourism.jpg",
+        "details": "We have many types of adventure tour packages. Adventure tourism is defined as the movement of the people from one to another place outside their comfort zone for exploration or travel to remote areas, exotic and possibly hostile areas. Adventure tourism is a type of tourism in which tourist do some adventures activities like as skydiving, hill climbing, scuba diving. Adventure tourism is very popular among young age tourists. Adventure tourism gains much of its excitement by allowing the tourists to step outside their comfort zone. This may be from experiencing cultural shock or through the performance of acts, that required some degree of risk (real or perceived) and physical danger."
+    }
+]
