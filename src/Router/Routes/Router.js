@@ -5,6 +5,7 @@ import Home from "../../Pages/Home/Home/Home";
 import Login from "../../Pages/Login/Login";
 import Review from "../../Pages/Review/Review";
 import Singup from "../../Pages/Singup/Singup";
+import PrivetRoute from "../PrivetRoute/PrivetRoute";
 
 const { createBrowserRouter } = require("react-router-dom");
 
@@ -31,7 +32,7 @@ const router = createBrowserRouter([
             },
             {
                 path: '/review/:id',
-                element: <Review></Review>,
+                element: <PrivetRoute><Review></Review></PrivetRoute>,
                 loader: ({ params }) => fetch(`http://localhost:5000/services/${params.id}`)
             },
             {
