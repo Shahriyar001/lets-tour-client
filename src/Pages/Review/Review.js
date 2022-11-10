@@ -16,12 +16,29 @@ const Review = () => {
         const allReview = {
             service: _id,
             serviceName: title,
+            details,
             price,
             customer: name,
             email,
             review
 
         }
+        fetch('http://localhost:5000/allReview', {
+            method: "POST",
+            headers: {
+                'content-type': 'application/json'
+            },
+            body: JSON.stringify(allReview)
+        })
+            .then(res => res.json())
+            .then(data => {
+                console.log(data)
+                if (data.acknowledged) {
+                    alert('review set successfully')
+                    form.reset();
+                }
+            })
+            .catch(er => console.log(er))
     }
     return (
         <div>
@@ -50,11 +67,11 @@ const Review = () => {
                 <div className='grid grid-cols-1'>
                     <h1 className='text-2xl my-8 text-center'><strong>Set Review</strong></h1>
                     <div className='grid grid-cols-1 lg:grid-cols-2 mx-auto w-3/4'>
-                        <input name='name' type="text" placeholder="Name" className="input input-ghost w-full input-bordered m-1" />
+                        <input name='name' type="text" placeholder="Name" className="input input-ghost w-full input-bordered m-1" required />
                         <input name='email' type="text" placeholder="Email"
                             defaultValue={user?.email} className="input input-ghost w-full input-bordered m-1" readOnly />
                     </div>
-                    <textarea name='review' className="textarea textarea-bordered h-30 w-3/4 mx-auto my-5" placeholder="Your Exparience"></textarea>
+                    <textarea name='review' className="textarea textarea-bordered h-30 w-3/4 mx-auto my-5" placeholder="Your Exparience" required ></textarea>
 
                     <input className='btn w-1/5 mx-auto my-5' type="submit" value="Submit" />
                 </div>

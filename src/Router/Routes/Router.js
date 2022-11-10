@@ -1,4 +1,5 @@
 import Main from "../../Layout/Main";
+import Allreview from "../../Pages/AllReview/Allreview";
 import AllServices from "../../Pages/AllServices/AllServices";
 import Home from "../../Pages/Home/Home/Home";
 import Login from "../../Pages/Login/Login";
@@ -32,6 +33,10 @@ const router = createBrowserRouter([
                 path: '/review/:id',
                 element: <Review></Review>,
                 loader: ({ params }) => fetch(`http://localhost:5000/services/${params.id}`)
+            },
+            {
+                path: '/allReview',
+                element: <Allreview></Allreview>
             }
         ]
     }
