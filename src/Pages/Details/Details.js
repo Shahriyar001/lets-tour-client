@@ -21,7 +21,6 @@ const Details = () => {
                             <input type="radio" name="rating-2" className="mask mask-star-2 bg-orange-400" />
                         </div>
                         <div>
-                            <button className="btn btn-primary mx-3">Add Review</button>
                             <button className="btn btn-primary">Book</button>
                         </div>
                     </div>
