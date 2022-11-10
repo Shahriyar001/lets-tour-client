@@ -7,7 +7,7 @@ const Allreview = () => {
     const [allReview, setAllReview] = useState([])
 
     useEffect(() => {
-        fetch(`http://localhost:5000/allReview?email=${user?.email}`)
+        fetch(`https://lets-tour-server.vercel.app/allReview?email=${user?.email}`)
             .then(res => res.json())
             .then(data => setAllReview(data))
     }, [user?.email])

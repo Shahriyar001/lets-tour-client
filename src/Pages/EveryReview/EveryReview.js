@@ -6,7 +6,7 @@ const EveryReview = () => {
     const [everyRev, setEveryRev] = useState([]);
 
     useEffect(() => {
-        fetch('http://localhost:5000/allReview')
+        fetch('https://lets-tour-server.vercel.app/allReview')
             .then(res => res.json())
             .then(data => setEveryRev(data))
     }, [])
