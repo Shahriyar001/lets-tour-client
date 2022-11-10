@@ -12,9 +12,11 @@ const AllServicesCard = ({ service }) => {
                 <p className='text-2xl text-blue-500'>$ {price}</p>
                 <div className="card-actions justify-end">
                     <Link to={`/review/${_id}`}>
-                        <button className="btn btn-primary">Details & Review</button>
+                        <button className="btn btn-primary">Set Review</button>
                     </Link>
-                    <button className="btn btn-disabled">Book Now</button>
+                    <Link to={`/details/${_id}`}>
+                        <button className="btn btn-primary">Details</button>
+                    </Link>
                 </div>
             </div>
         </div>
