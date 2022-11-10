@@ -17,6 +17,7 @@ const Review = () => {
             service: _id,
             serviceName: title,
             details,
+            img,
             price,
             customer: name,
             email,
